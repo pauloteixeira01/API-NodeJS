@@ -1,14 +1,12 @@
 import { Entity, PrimaryColumn, Column, CreateDateColumn } from "typeorm";
 import { v4 as uuidv4 } from "uuid";
 
-@Entity("Users")
+@Entity("users")
 class User {
   @PrimaryColumn()
   id: string;
   @Column()
   name: string;
-  @Column()
-  username: string;
   @Column()
   email: string;
   @Column()
