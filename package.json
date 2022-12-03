@@ -1,5 +1,5 @@
 {
-  "name": "creating-api",
+  "name": "rentx",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -11,6 +11,7 @@
     "bcrypt": "^5.1.0",
     "csv-parse": "^5.3.2",
     "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
     "jsonwebtoken": "^8.5.1",
     "pg": "^8.8.0",
     "reflect-metadata": "^0.1.13",
